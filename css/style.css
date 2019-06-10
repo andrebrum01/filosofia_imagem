@@ -56,15 +56,22 @@ color:red;
 text-shadow:0px 0px 1px black;
 }
 p.redacao{
-	margin-left:10%;
-	margin-right:10%;
 	text-align:justify;
 	height:90%;
 	width:100%;
 	font-size:25px;
+	
+}
+div.scroll{
+	margin-left:10%;
+	margin-right:10%;
+	padding:0px;
+	height:100%;
+	width:100%;
 	overflow:scroll;
 }
-p::-webkit-scrollbar {
+
+div::-webkit-scrollbar {
     width: 0px;
 } 
 body::-webkit-scrollbar {
