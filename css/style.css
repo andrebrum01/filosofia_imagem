@@ -70,6 +70,9 @@ div.scroll{
 	width:100%;
 	overflow-y:scroll;
 }
+p::-webkit-scrollbar {
+width: 0px;
+}
 body::-webkit-scrollbar {
 width: 0px;
 }
