@@ -71,9 +71,7 @@ div.scroll{
 	overflow:scroll;
 }
 
-div::-webkit-scrollbar {
-    width: 0px;
-} 
+ 
 body::-webkit-scrollbar {
 width: 0px;
 }
