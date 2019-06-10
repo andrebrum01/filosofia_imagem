@@ -62,8 +62,7 @@ p.redacao{
 	height:90%;
 	width:100%;
 	font-size:25px;
-	overflow:auto;
-	scroll:;
+	overflow:scroll;
 }
 p::-webkit-scrollbar {
     width: 0px;
